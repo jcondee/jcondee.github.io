@@ -3,12 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Janilla's Personal Portfolio</title>
+    <style>
+        /* Existing CSS styles here... */
+       
+        header {
+            background-color: rgb(180, 112, 180);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: rgb(180, 112, 180);
+            text-align: center;
+        }
+
+         nav a {
+        display: inline-block;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+        border-radius: 5px;
+        background-color: rgb(134, 93, 134);
+        font-style: tahoma;
+        font-weight: bold;
+        }
+
+        
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgb(180, 112, 180);
+            min-width: 160px;
+            text-align: left;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: rgb(134, 93, 134);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .portfolio-item {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 20px;
+            background-color: rgb(180, 112, 180);
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(180, 112, 180);
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <a href="https://jcondee.github.io/prelim%20activities/fashion.html">Fashion</a>
-    <a href="https://jcondee.github.io/prelim activities/wine.html">Wine</a>
-    <a href="https://jcondee.github.io/prelim%20activities/burger.html">Burger</a>
-<h1> Hello, I'm Janilla!</h1>
+    <header>
+        <h1>WELCOME TO MY PORTFOLIO!</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About Me</a>
+        <div class="dropdown">
+            <span class="dropdown-content">
+                <a href="https://jcondee.github.io/prelim%20activities/fashion.html">Fashion</a>
+                <a href="https://jcondee.github.io/prelim%20activities/wine.html">Wine</a>
+                <a href="https://jcondee.github.io/prelim%20activities/burger.html">Burger</a>
+                <a href="https://jcondee.github.io/prelim%20activities/financial.html">Financial Tracker</a>
+            </span>
+            <a href="#web">Web Development</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="portfolio-item">
+            <h2>Janilla's Personal Page</h2>
+        </div>
+        <div class="portfolio-item">
+            <h2>Still in progress...</h2>
+        </div>
+        <!-- Add more portfolio items as needed -->
+    </div>
+    <section id="about">
+    </section>
+    <section id="web">
+
+    </section>
+    <footer>
+    </footer>
 </body>
 </html>
