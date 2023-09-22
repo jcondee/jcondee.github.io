@@ -1,0 +1,151 @@
+.wireframe {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.wireframe .overlap-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+}
+
+.wireframe .overlap {
+  position: relative;
+  left: 68px;
+  width: 1372px;
+  height: 1024px;
+}
+
+.wireframe .header {
+  position: absolute;
+  width: 573px;
+  top: 55px;
+  left: 35px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #000000;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.wireframe .overlap-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1372px;
+  height: 1024px;
+}
+
+.wireframe .purple {
+  position: absolute;
+  width: 740px;
+  height: 242px;
+  top: 0;
+  left: 632px;
+}
+
+.wireframe .purple-front {
+  position: absolute;
+  width: 315px;
+  height: 607px;
+  top: 0;
+  left: 1057px;
+}
+
+.wireframe .description-box {
+  position: absolute;
+  width: 855px;
+  height: 814px;
+  top: 210px;
+  left: 0;
+  background-color: #efd3d3;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.wireframe .xoxo {
+  position: absolute;
+  width: 234px;
+  height: 35px;
+  top: 957px;
+  left: 574px;
+}
+
+.wireframe .description-vector {
+  position: absolute;
+  width: 33px;
+  height: 815px;
+  top: 209px;
+  left: 850px;
+}
+
+.wireframe .img {
+  position: absolute;
+  width: 234px;
+  height: 35px;
+  top: 252px;
+  left: 30px;
+}
+
+.wireframe .texts {
+  position: absolute;
+  width: 667px;
+  top: 304px;
+  left: 106px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  font-style: italic;
+  color: #000000;
+  font-size: 27px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wireframe .div {
+  position: absolute;
+  width: 375px;
+  height: 548px;
+  top: 476px;
+  left: 913px;
+  background-color: #a38888;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.wireframe .profile-vector {
+  position: absolute;
+  width: 33px;
+  height: 549px;
+  top: 475px;
+  left: 1284px;
+}
+
+.wireframe .info {
+  position: absolute;
+  width: 321px;
+  top: 848px;
+  left: 940px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wireframe .ellipse {
+  position: absolute;
+  width: 285px;
+  height: 253px;
+  top: 545px;
+  left: 958px;
+  object-fit: cover;
+}
